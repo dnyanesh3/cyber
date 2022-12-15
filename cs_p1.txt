@@ -1,0 +1,45 @@
+# recon-ng
+
+marketplace install discovery
+marketplace install recon
+marketplace install exploitation
+marketplace install reporting
+marketplace install all
+workspaces list
+workspaces create cybersecurity
+marketplace install recon/domains-contacts/whois_pocs
+modules load recon/domains-contacts/whois_pocs
+options list 
+options set source facebook.com
+options list 
+run
+back
+marketplace install recon/profiles-profiles/namechk
+modules load recon/profiles-profiles/namechk
+options list
+options set source Brandon Stout
+options list 
+run
+
+back
+marketplace 
+marketplace install recon/profiles-profiles/profiler
+modules load recon/profiles-profiles/profiler
+options list
+options set source Brandon Stout
+options list 
+run
+back
+
+options list
+
+marketplace install reporting/html
+module load reporting/html
+options list
+options set creator ROHAN
+options set customers Brandon Stout
+
+options set creator filename report.html(file dir)
+options list
+run
+exit
